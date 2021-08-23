@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position in css</title>
+    <style>
+        .box{
+            border: solid black;
+            display: inline-block; 
+            /* inline block se dabba bann jayega */
+            width: 120px;
+            height: 100px;
+        }
+        
+            /* position absolute se dabba gayab ho gya  aur ye space nahi chorega*/
+            /*static position bydefault hota hai */
+        
+        #box3{
+            position: relative;
+            /* relativeposition de k us box ko move kara sakte hain upar niche aur ye space ko khali chor dega aise hi  */
+            top: 50px;
+            left: 16px;
+        }
+        #box2{
+            position: fixed;
+            bottom: 3px;
+            left: 2px;
+        }
+        #box4{
+            position: sticky;
+,                                               }
+        #nj{
+            width: 150%;
+            height: 3260px;
+            background-color: burlywood;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="nj">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selector and more design</title>
+    <style>
+.container{
+    border: solid salmon;
+    margin: 80px auto;
+    background-color: rgb(250, 240, 232);
+    /* box ko size jaisa dena ho waise dega */
+    padding: 80px;
+    width: 600px;
+    
+}
+.btn{
+    padding: 10px;
+    background-color: sandybrown;
+    border: none;
+    /*cursor k liye hai*/
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 3px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    /* underline hatta dega */
+}
+a:hover{
+    color: skyblue;
+    background-color: blanchedalmond;
+}
+a:visited{
+ color: rgb(148, 120, 83);
+}
+button:hover{
+    color: skyblue;
+}
+button:active{
+    background-color: rgb(84, 223, 29);
+}
+.btn:hover{
+    border: 2px solid darkgreen;
+}
+    </style>
+</head>
+<body>
+    <div class="container" id="d1">
+    <h1>welcom</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequatur porro vitae at? Hic sunt ullam deleniti sapiente vero perspiciatis?</p>
+        <a href="font.html" class="btn">read more</a>
+        <button class="btn">submit</button>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation page</title>
+    <style>
+        #ci
+        {
+            background-color: coral;
+            width: 250px;
+            height: 250px;
+            margin-bottom: 0px;
+            border-radius: 200px;
+            margin: auto;
+            position: relative;
+            animation-name: jump;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: reverse;
+            animation-timing-function: ease-in-out;
+            
+        }
+
+        @keyframes jump{
+            from{
+                top: 0px;
+            }
+            to{
+                top: 400px;
+            }
+        } 
+    </style>
+</head>
+<body>
+    <div  id="ci">
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,655 @@
+﻿INPUT.submit
+{
+	border: solid 1px #666666;
+	font-family: Verdana;
+	font-size: 13px;
+	font-weight: bolder;
+	color: Black;
+	background-color:#CCE0F1;
+	cursor:hand;
+}
+INPUT.submit_bg
+{
+	border: 0px;
+	font-size: 17px;
+	font-weight: bolder;
+	cursor: hand;
+	color: black;
+	background-repeat: no-repeat;
+	background-image: url( '../images/but_bg.jpg' );
+	text-align: center;
+	text-decoration: none;
+	font-family: Verdana;
+	width: 140;
+	height: 32;
+}
+.Sbut
+{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 10px;
+	width: 22px;
+	height: 22px;
+	border: solid 1px #e0e0e0;
+	background-color: #f0f0f0;
+	cursor: pointer;
+}
+.Sbut1
+{
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+	width: 21px;
+	height: 20px;
+	border: solid 1px blue;
+	background-color: #f0f0f0;
+	cursor: pointer;
+}
+.AddHomeBG
+{
+	background-color: #c6c2c2;
+}
+.AddButton
+{
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+	padding: 2px;
+}
+.HyperLinkButton
+{
+	font-family: Verdana;
+	font-size: 11px;
+	padding: 2px;
+	color: Black;
+	display: inline-table;
+	display: inline-block;
+	text-decoration: none;
+}
+.HyperLinkButton:HOVER
+{
+	font-family: Verdana;
+	font-size: 11px;
+	padding: 2px;
+	color: blue;
+	text-decoration: none;
+}
+.HomeButton
+{
+	font-family: verdana;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: right;
+	padding: 2px;
+}
+.ImageButton
+{
+	border: 0px;
+	font-size: 11px;
+	padding: 2px;
+	vertical-align: middle;
+}
+.GridViewTable
+{
+	margin: 0px;
+}
+.ColumnStyle
+{
+	font-family: Verdana;
+	font-size: 11px;
+	padding-right: 6px;
+	text-align: right;
+}
+.RowStyle
+{
+	font-family: Verdana;
+	font-size: 11px;
+}
+.EditRowStyle
+{
+	font-family: Verdana;
+	background-color: green;
+	color: White;
+	font-size: 11px;
+}
+.DelRowStyle
+{
+	font-family: Verdana;
+	background-color: red;
+	color: White;
+	font-size: 11px;
+}
+.HeaderStyle
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #C6C2C2;
+}
+.AlternatingRowStyle
+{
+	background-color: #D4DFF4;
+	font-family: Verdana;
+	font-size: 11px;
+}
+.PagerStyle
+{
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #C6C2C2;
+	color: #C00000;
+	text-align: center;
+	vertical-align: middle;
+}
+.LActionMessage
+{
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: white;
+	color: #C00000;
+	text-align: center;
+	vertical-align: middle;
+}
+.LActionMessageBlue
+{
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: white;
+	color: #0000BB;
+	text-align: center;
+	vertical-align: middle;
+}
+.TableOutLinedTD
+{
+	margin: 0px;
+}
+A.ActionLink
+{
+	text-decoration: none;
+	color: Black;
+	font-family: Verdana;
+	font-size: 9px;
+}
+A.ActionLink:hover
+{
+	text-decoration: none;
+	color: Blue;
+	font-family: Verdana;
+	font-size: 9px;
+}
+p
+{
+	font-family: Verdana;
+	font-size: 13px;
+	color: Black;
+	line-height: 20px;
+}
+
+select
+{
+	font: 13px Verdana;
+	color: #000000;
+	border: 1px solid #000000;
+	cursor: auto;
+}
+.text
+{
+	border: solid 1px #b0b0b0;
+	font-family: Verdana;
+	font-size: 12px;
+	color: Black;
+}
+.bld
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bolder;
+	color: Black;
+}
+.bld1
+{
+	font-family: Verdana;
+	font-size: 11px;
+	font-weight: bolder;
+	color: Black;
+}
+.bldw
+{
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bolder;
+	color: white;
+}
+
+.tdtext
+{
+	font-family: Verdana;
+	font-size: 12px;
+	color: Black;
+}
+.tdtext1
+{
+	font-family: Verdana;
+	font-size: 11px;
+	color: Black;
+}
+.tdtextw
+{
+	font-family: Verdana;
+	font-size: 12px;
+	color: White;
+}
+.stext
+{
+	font-family: Verdana;
+	font-size: 9px;
+	color: Black;
+}
+.stextw
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: white;
+}
+.sbld
+{
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: bolder;
+	color: Black;
+}
+.sbld1
+{
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bolder;
+	color: Black;
+}
+.sbldw
+{
+	font-family: Verdana;
+	font-size: 9px;
+	font-weight: bolder;
+	color: white;
+}
+.mtext
+{
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: bolder;
+	color: Black;
+}
+.mwtext
+{
+	font-family: Verdana;
+	font-size: 17px;
+	font-weight: bolder;
+	color: #ffffff;
+}
+.htext
+{
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #008FD2;
+	padding-top: 18px;
+	line-height: 20px;
+}
+.qcs
+{
+	font-family: Verdana;
+	color: White;
+	font-size: 11px;
+	background-color: #616C7E;
+	font-weight: bold;
+	border: 1px solid #616C7E;
+	border-right: 1px solid white;
+}
+.qcs1
+{
+	font-family: Verdana;
+	color: White;
+	font-size: 11px;
+	background-color: #616C7E;
+	font-weight: bold;
+	border-top: 1px solid #616C7E;
+	border-right: 1px solid #616C7E;
+	border-bottom: 1px solid #616C7E;
+}
+.bd
+{
+	border-right: 1px solid #616C7E;
+	border-bottom: 1px solid #616C7E;
+	background-color: White;
+}
+.qlbl
+{
+	font-family: Verdana;
+	font-size: 11px;
+}
+a.slink
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: white;
+	text-decoration: none;
+}
+a.slink:hover
+{
+	font-family: Verdana;
+	text-decoration: underline;
+	font-size: 10px;
+	color: Black;
+}
+
+.vsblink
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.link1
+{
+	font-family: Verdana;
+	font-size: 13px;
+	color: blue;
+	text-decoration: none;
+}
+.bigbtn
+{
+	font-family: Verdana;
+	background-color: #C0C0C0;
+	border: 1px solid #C0C0C0;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	width: 200px;
+	height: 30px;
+}
+a.sblink
+{
+	font-family: Verdana;
+	font-size: 10px;
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+	height: 24px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+a.sblink:hover
+{
+	background-color: #b4b4b4;
+	color: Black;
+	vertical-align: middle;
+	text-decoration: none;
+	height: 24px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+a.imglink
+{
+	padding: 4px 4px 4px 4px;
+	border: solid 1px #b4b4b4;
+}
+a.imglink:hover
+{
+	padding: 4px 4px 4px 4px;
+	border: solid 1px #242424;
+}
+div.thumbnail
+{
+	width: 82px;
+	height: 80px;
+	text-align: center;
+	float: left;
+	font: 10px verdana;
+	margin: 5px;
+	overflow: hidden;
+}
+div.imageholder
+{
+	margin: 0px;
+	padding: 1px;
+	border: 1px solid #CCCCCC;
+	width: 82px;
+	height: 42px;
+}
+
+div.titleholder
+{
+	font-family:Arial;
+	font-size: 10px;
+	width: 82px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+fieldset
+{
+	padding: 0px 10px 5px 5px;
+	font-family: Verdana;
+	font-weight:bold;
+	font-size: 10px;
+}
+.dd1
+{
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 11px;
+}
+.TableOutLined
+{
+	padding: 0px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: #622423;
+	border-width: 1px;
+	padding: 0px;
+}
+.TableOutLined1
+{
+	padding: 0px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: #622423;
+	border-width: 1px;
+	padding: 0px;
+}
+.TableOutLined2
+{
+	padding: 0px;
+	border-collapse: collapse;
+	border-style: solid;
+	border-color: #622423;
+	border-width: 1px;
+	padding: 0px;
+}
+.Listing
+{
+	text-align: left;
+	padding: 5px;
+	background-color: #616C7E;
+	font-family: Verdana;
+	font-size: 12px;
+	color: White;
+}
+.button
+{
+	background-color: #CCE0F1;
+	border: solid 1px black;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+}
+.button1
+{
+	background-color: #CCE0F1;
+	padding: 4px 4px 4px 4px;
+	border: solid 1px black;
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	width: 220px;
+}
+.ImgHelp
+{
+	border: none;
+	cursor: hand;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	vertical-align: middle;
+}
+.GVEmpty
+{
+	text-align: center;
+	color: #3F83C0;
+	font-weight: bold;
+}
+.SearchTable
+{
+	width: 100%;
+	min-height: 200px;
+	height: auto;
+}
+.SearchTable1
+{
+	margin: 10px;
+	width: 100%;
+}
+.ActionImage
+{
+	border-width: 0px;
+	border-style: none;
+}
+.TRSHeaderColumn1
+{
+	text-align: right;
+	font-family: Verdana;
+	font-size: 10px;
+	padding-left: 3px;
+}
+.TRSHeaderColumn2
+{
+	text-align: left;
+	font-family: Verdana;
+	font-size: 20px;
+	padding-left: 3px;
+}
+.TRSHeaderColumn3
+{
+	text-align: left;
+	font-family: Verdana;
+	font-size: 10px;
+	padding-left: 3px;
+	text-align: left;
+}
+.TextBox
+{
+	font-family: Verdana;
+	font-size: 11px;
+	background-color: White;
+	border: solid 1px #b0b0b0;
+}
+.TRSHeaderColumn4
+{
+	text-align: left;
+	font-family: Verdana;
+	font-size: 10px;
+	padding-left: 3px;
+	text-align: left;
+}
+.NoBorder
+{
+	border-width: 0px;
+	border-style: none;
+}
+.etr
+{
+	font-family: Verdana;
+	font-size: 11px;
+}
+.etd
+{
+	font-family: Verdana;
+	font-size: 11px;
+	line-height: 25px;
+}
+.tdl
+{
+	padding-left: 8px;
+}
+.bd1
+{
+	border: 1px solid red;
+}
+
+.qsts
+{
+	background-color: White;
+	font-family: Verdana;
+	font-size: 11px;
+}
+.qstsd
+{
+	background-color: White;
+	font-family: Verdana;
+	font-size: 11px;
+}
+.qrtd
+{
+	background-color: White;
+	font-family: Verdana;
+	font-size: 12px;
+}
+.sst
+{
+	background-color: White;
+	text-align: center;
+	border-right: 1px solid #616C7E;
+	border-bottom: 1px solid #616C7E;
+	border-left: 1px solid #616C7E;
+}
+
+.tst
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	vertical-align: top;
+}
+
+.lblmsg
+{
+	font-family: Verdana;
+	font-size: 11px;
+	color: #E44800;
+	font-weight: bold;
+}
+.bdb
+{
+	border-bottom: 1px solid #616C7E;
+}
+.qlogin
+{
+	background-color: #616C7E;
+	color: White;
+	font-size: 12px;
+	font-family: verdana;
+	vertical-align: middle;
+}

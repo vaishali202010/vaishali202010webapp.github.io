@@ -1,0 +1,101 @@
+body
+{
+    background-image: url(c.jpg);
+    background-size: cover;
+    width: 10%;
+    height: 500px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+h1{
+    color: rgb(240, 240, 186);
+    font-size: 70px;
+    font-style: italic;
+    position: relative;
+    left: 10px;
+    width: 100px;
+    letter-spacing: 1px;
+    transform: translate(50%,50%);
+    animation: text 5s  infinite;
+}
+#bo{
+    display: inline-block;
+    border: inherit;
+    width: 250px;
+    height: 50px;
+    position: fixed;
+    left: 15px;
+    bottom: 20px;
+    color: rgb(248, 239, 239);
+    font-size: 20px;
+    z-index: 1;
+}
+@keyframes ani01{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+body:before
+{
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(59, 24, 24, 0.575);
+    opacity: .7;
+    /*upar se shadow type ka jo hai us k liye hai*/
+    z-index: -1;
+}
+.navbar{
+    background-color:inherit;
+    width:500px;
+    margin-left: 48pc;
+    display: inline-block; 
+    top: 0;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px; 
+}
+#bn{
+    margin-top: 10px;
+}
+.navbar ul li a{
+    color: ivory;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.shape{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border: 5px solid ;
+    right: 5%;
+    top: 10%;
+  
+    animation:ani01 2s linear infinite;
+}
+@keyframes text{
+    0%{
+        letter-spacing: 1px;
+    }
+    20%{
+        letter-spacing: 25px;
+    } 
+    60%{
+        letter-spacing: 60px;
+    }
+    100%{
+    }
+}

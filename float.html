@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>understanding of float and clear</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <style>
+        * {
+  box-sizing: border-box;
+            }
+        body
+        {
+            font-family: 'Hanalei Fill', cursive;
+        }
+        .bn
+        {
+            width: 800px;
+            border: solid darkgray;
+            margin: auto;
+            
+        }
+        .container
+        {
+            border: 5px solid darkgoldenrod;
+            margin: 15px 3px;
+            padding: 10px 20px;
+            background-color: rgb(247, 222, 213);
+        }
+       
+        #g
+        {
+            width: 50%;
+            float: right;
+        }
+        
+        #k
+        {
+            float: left;
+            width: 47%;
+           
+        }
+        #h
+        {
+            
+            clear: both;
+        }
+p 
+{
+    text-align: center;
+    margin: 23px auto;
+    width: 440;
+}
+    </style>
+</head>
+<body>
+    <div class="bn">
+        
+    <div id="g" class="container" >
+    <h1>fruits</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut doloremque vitae commodi, autem quam veniam inventore impedit, quasi nesciunt quaerat eaque sapiente blanditiis tenetur aliquid placeat velit. Facilis, unde dolorem</p>.</div>
+
+    <div class="container" id="k">
+        <h1>mobile</h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut doloremque vitae commodi, autem quam veniam inventore impedit, quasi nesciunt quaerat eaque sapiente blanditiis tenetur aliquid placeat velit. Facilis, unde dolorem.</div>
+
+ 
+    <div class="container" id="h">
+        <h1>human</h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut doloremque vitae commodi, autem quam veniam inventore impedit, quasi nesciunt quaerat eaque sapiente blanditiis tenetur aliquid placeat velit. Facilis, unde dolorem.</div>
+</div>
+
+
+</body>
+</html>

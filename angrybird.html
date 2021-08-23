@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>angry bird</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: cornflowerblue;
+            justify-content: center;
+            display: flex;
+            min-height: 100vh;
+            align-items: center;
+            overflow: hidden; 
+        }
+        .circle{
+            position: absolute;
+            background-color: cornflowerblue;
+            height: 500px;
+            width: 500px;
+        }
+        #face{
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background-color: red;
+            border-radius: 50%;
+            border: solid black 2px;
+            overflow: hidden;
+            }
+        #thudi{
+            position: absolute;
+            width: 330px;
+            height: 330px;
+            background-color: burlywood;
+            border-radius: 50%;
+            left: 16%;
+            top: 60%;
+        }
+        #tailmid  #tailtop, #tailbuttom{
+            position: absolute;
+            height: 5000px;
+            width: 70px;
+            background-color:black;
+            clip-path: polygon(0 27%, 100% 40%, 100% 68%, 0 75%);
+        }
+        #eyebrleft{
+            position: relative;
+            height: 50px;
+            width: 187px;
+            background-color: black;
+            top: 25%;
+            left: 14%;
+            display: flex;
+            animation-name: eyel;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            z-index: 20;
+            transform: rotate(10deg);
+
+
+        }
+        @keyframes eyel {
+            from{
+                top: 25%;
+            }
+            to{
+                top: 20%;
+                transform: rotate(-20deg);
+            }
+            
+        }
+        #eyebrright{
+            position: relative;
+            display: flex;
+            height: 50px;
+            width: 187px;
+            background-color: black;
+            top: 15%;
+            left: 48%;
+            animation-name: eyer;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            z-index: 20;
+            transform: rotate(-10deg);
+
+
+        }
+        @keyframes eyer {
+            from{
+                top: 15%;
+            }
+            to{
+                top: 10%;
+                transform: rotate(20deg);
+            }   
+        }
+        #eyeright{
+            position: absolute;
+            width: 155px;
+            height: 155px;
+            border-radius: 50%;
+            background-color: white;
+            border: solid black 1px;
+            box-shadow: 8px 2px 8px 2px #ab0024;
+            bottom:39%;
+            left: 49%;
+        }
+        #eyeleft{
+            position: absolute;
+            width: 155px;
+            height: 155px;
+            border-radius: 50%;
+            background-color: white;
+            border: solid black 1px;
+            box-shadow: -8px 2px 8px 2px #ab0024;
+            bottom:39%;
+            left: 18%;
+        }
+        #blackba{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: black;
+            bottom:53%;
+            border-radius: 50%;
+            left: 30%;
+        }
+        #blackball{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: black;
+            bottom:53%;
+            border-radius: 50%;
+            left: 55%;
+        }
+        #lwhball{
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+            background-color: white;
+            bottom:61%;
+            left: 62%;
+        }
+        #rwhball{
+            position: absolute;
+            width: 17px;
+            height: 17px;
+            border-radius: 50%;
+            background-color: white;
+            bottom:61%;
+            left: 32%;
+        }
+        #choch{
+            position: absolute;
+            width: 155px;
+            height: 155px;
+            top: 53%;
+            left: 34%;
+            transform: rotate(43deg);
+            border-radius: 29% 0% 5% 0%;
+            border: solid black 1px;
+            background-color: rgb(252, 215, 5)  ;
+        }
+       
+        #cf{
+            position: absolute;
+            width: 50px;
+            height: 100px;
+            background-color: red;
+            top: 4%;
+            left: 47%;
+            border-radius: 50%;
+            transform: rotate(-50deg);
+            border: solid black 1px;
+        }
+        #cp{
+            position: absolute;
+            width: 50px;
+            height: 100px;
+            background-color: red;
+            top: 5%;
+            left: 40%;
+            border-radius: 50%;
+            transform: rotate(-60deg);
+            border: solid black 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="circle">
+        <div id="face">
+        <div id="hair"></div>
+        <div id="thudi"></div></div>
+
+
+        <div id="tailmid"></div>
+        <div id="tailtop"></div>
+        <div id="tailbuttom"></div>
+
+        <div id="eyebrleft"></div>
+        <div id="eyebrright"></div>
+
+        <div id="eyeright"></div>
+        <div id="eyeleft"></div>
+
+        <div id="blackba"></div>
+        <div id="blackball"></div>
+
+        <div id="lwhball"></div>
+        <div id="rwhball"></div>
+
+        <div id="choch">
+        <hr color="black" >
+        </div>
+
+    </div>
+
+
+        <div id="cf"></div>
+        <div id="cp"></div>
+
+
+</body>
+</html>
